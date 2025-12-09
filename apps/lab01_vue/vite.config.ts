@@ -7,12 +7,13 @@ import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base : '/mobileweb/lab01_vue',
   plugins: [
     vue(),
     legacy()
   ],
   build: {
-    outDir: path.resolve(__dirname, '../../dist/apps/lab01_vue'),
+    outDir: '../../docs/lab01_vue',
     emptyOutDir: true
   },
   resolve: {
