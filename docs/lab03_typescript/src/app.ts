@@ -19,9 +19,9 @@ function renderTable(elementId: string = "studentTableBody"): void {
         <td>${s.title_name}</td>
         <td>${s.first_name}</td> 
         <td>${s.last_name}</td>
+        <td>${s.email}</td>
         <td>${s.year}</td>
         <td>${s.major}</td>
-        <td>${s.email}</td>
       </tr>
     `;
   });
