@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="th">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>หลักฐานการทำงาน Lab 7</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <style>
+            .screenshot-img { width: 100%; border-radius: 10px; border: 1px solid #ddd; margin-bottom: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+            .card { border: none; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 40px; border-radius: 15px; }
+            .platform-label { font-size: 0.85rem; font-weight: bold; color: #555; background: #eee; padding: 2px 10px; border-radius: 10px; display: inline-block; margin-bottom: 8px; }
+            h5 { font-weight: bold; color: #0d6efd; border-bottom: 2px solid #0d6efd; display: inline-block; padding-bottom: 5px; margin-bottom: 20px; }
+        </style>
+    </head>
+    <body class="bg-light">
+        <header class="text-center py-5 bg-white shadow-sm mb-5">
+            <h2 class="fw-bold">บันทึกผลการทดลอง Lab 7</h2>
+            <p class="text-muted">ระบบยืนยันตัวตนด้วย Firebase Authentication (Web & Android)</p>
+            <p class="mb-0"><strong>ผู้จัดทำ:</strong> กมลวรรณ ดีคง <strong>รหัส:</strong> 663380197-8</p>
+        </header>
+
+        <main class="container">
+            <div class="card p-4">
+                <h5>1. ภาพหน้าจอ Login หลัก</h5>
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <img src="login-main.png" class="screenshot-img" alt="หน้าจอ Login รวมทุกปุ่ม">
+                        <p class="small text-muted">แสดงปุ่ม Login Google, Phone และ Email</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card p-4">
+                <h5>2. การเข้าสู่ระบบด้วย Email/Password</h5>
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <span class="platform-label">ขั้นตอนที่ 1</span>
+                        <img src="email-1.png" class="screenshot-img" alt="กรอก Email">
+                        <p class="small">หน้าจอขณะกรอก Email และ Password</p>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="platform-label">ขั้นตอนที่ 2</span>
+                        <img src="email-2.png" class="screenshot-img" alt="กด Login">
+                        <p class="small">หน้าจอเมื่อกดปุ่มยืนยันการเข้าสู่ระบบ</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card p-4">
+                <h5>3. การเข้าสู่ระบบด้วย Google (Google Sign-In)</h5>
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <img src="login-google.png" class="screenshot-img" alt="Google Login">
+                        <p class="small text-muted">แสดงหน้าจอเลือกบัญชี Google เพื่อเข้าใช้งาน</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card p-4">
+                <h5>4. การเข้าสู่ระบบด้วยเบอร์โทรศัพท์ (Phone OTP)</h5>
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <img src="login-phone.png" class="screenshot-img" alt="Phone Login">
+                        <p class="small text-muted">หน้าจอการกรอกเบอร์โทรศัพท์และรหัส OTP ยืนยัน</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card p-4">
+                <h5>5. หน้าจอ Tab1 แสดงข้อมูลโปรไฟล์ผู้ใช้</h5>
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <img src="tab1-profile.png" class="screenshot-img" alt="User Profile">
+                        <p class="small text-muted">แสดงรูปโปรไฟล์ ชื่อ และอีเมลที่ดึงมาจาก Firebase หลัง Login</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mb-5">
+                <a href="https://github.com/your-username/lab07-authen" class="btn btn-dark btn-lg shadow">Link GitHub Project</a>
+            </div>
+        </main>
+
+        <footer class="text-center py-4 text-muted border-top bg-white">
+            <p class="mb-0">© 2026 Mobile Web Application Development - KKU</p>
+        </footer>
+    </body>
+</html>
