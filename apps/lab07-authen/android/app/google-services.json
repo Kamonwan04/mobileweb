@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1022502813873",
+    "project_id": "lab06-expense-bcaef",
+    "storage_bucket": "lab06-expense-bcaef.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022502813873:android:d0a1b49496ff33df352290",
+        "android_client_info": {
+          "package_name": "cpkku.kamonwan.lab07"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022502813873-ql2v0gm39vpjmlpt9p4j47jh1gb6n1r4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtOirpljKauDd4g-Q521Ka6Vt34ACuzC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022502813873-ql2v0gm39vpjmlpt9p4j47jh1gb6n1r4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
